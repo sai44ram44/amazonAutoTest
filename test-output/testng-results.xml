@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="0" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="196424" started-at="2018-08-11T06:14:48Z" finished-at="2018-08-11T06:18:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="196424" started-at="2018-08-11T06:14:48Z" finished-at="2018-08-11T06:18:04Z">
+      <class name="com.naniTech.automation.testcases.IntroPageTest">
+        <test-method status="PASS" signature="setExtend()[pri:0, instance:com.naniTech.automation.testcases.IntroPageTest@3bfdc050]" name="setExtend" is-config="true" duration-ms="562" started-at="2018-08-10T23:14:48Z" finished-at="2018-08-10T23:14:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtend -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.naniTech.automation.testcases.IntroPageTest@3bfdc050]" name="setUp" is-config="true" duration-ms="60290" started-at="2018-08-10T23:14:48Z" finished-at="2018-08-10T23:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="naviageToProducts()[pri:1, instance:com.naniTech.automation.testcases.IntroPageTest@3bfdc050]" name="naviageToProducts" duration-ms="9976" started-at="2018-08-10T23:15:49Z" finished-at="2018-08-10T23:15:59Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.naniTech.automation.testcases.IntroPageTest.naviageToProducts(IntroPageTest.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naviageToProducts -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.naniTech.automation.testcases.IntroPageTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="2514" started-at="2018-08-10T23:16:05Z" finished-at="2018-08-10T23:16:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=naviageToProducts status=FAILURE method=IntroPageTest.naviageToProducts()[pri:1, instance:com.naniTech.automation.testcases.IntroPageTest@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.naniTech.automation.testcases.IntroPageTest@3bfdc050]" name="setUp" is-config="true" duration-ms="18570" started-at="2018-08-10T23:16:07Z" finished-at="2018-08-10T23:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="checkAmazonLogoTest()[pri:2, instance:com.naniTech.automation.testcases.IntroPageTest@3bfdc050]" name="checkAmazonLogoTest" duration-ms="4426" started-at="2018-08-10T23:16:26Z" finished-at="2018-08-10T23:16:30Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.naniTech.automation.testcases.IntroPageTest.checkAmazonLogoTest(IntroPageTest.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAmazonLogoTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.naniTech.automation.testcases.IntroPageTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="1520" started-at="2018-08-10T23:16:31Z" finished-at="2018-08-10T23:16:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkAmazonLogoTest status=FAILURE method=IntroPageTest.checkAmazonLogoTest()[pri:2, instance:com.naniTech.automation.testcases.IntroPageTest@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.naniTech.automation.testcases.IntroPageTest@3bfdc050]" name="setUp" is-config="true" duration-ms="15966" started-at="2018-08-10T23:16:32Z" finished-at="2018-08-10T23:16:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="searchProductTest()[pri:3, instance:com.naniTech.automation.testcases.IntroPageTest@3bfdc050]" name="searchProductTest" duration-ms="9572" started-at="2018-08-10T23:16:48Z" finished-at="2018-08-10T23:16:58Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.naniTech.automation.testcases.IntroPageTest.searchProductTest(IntroPageTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.naniTech.automation.testcases.IntroPageTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="1234" started-at="2018-08-10T23:17:00Z" finished-at="2018-08-10T23:17:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProductTest status=FAILURE method=IntroPageTest.searchProductTest()[pri:3, instance:com.naniTech.automation.testcases.IntroPageTest@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.naniTech.automation.testcases.IntroPageTest@3bfdc050]" name="setUp" is-config="true" duration-ms="16205" started-at="2018-08-10T23:17:02Z" finished-at="2018-08-10T23:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="getTitleTest()[pri:4, instance:com.naniTech.automation.testcases.IntroPageTest@3bfdc050]" name="getTitleTest" duration-ms="28" started-at="2018-08-10T23:17:18Z" finished-at="2018-08-10T23:17:18Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.naniTech.automation.testcases.IntroPageTest.getTitleTest(IntroPageTest.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.naniTech.automation.testcases.IntroPageTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="1334" started-at="2018-08-10T23:18:02Z" finished-at="2018-08-10T23:18:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getTitleTest status=FAILURE method=IntroPageTest.getTitleTest()[pri:4, instance:com.naniTech.automation.testcases.IntroPageTest@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.naniTech.automation.testcases.IntroPageTest@3bfdc050]" name="endReport" is-config="true" duration-ms="1056" started-at="2018-08-10T23:18:03Z" finished-at="2018-08-10T23:18:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.naniTech.automation.testcases.IntroPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
