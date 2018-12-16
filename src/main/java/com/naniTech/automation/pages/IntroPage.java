@@ -23,6 +23,7 @@ public class IntroPage extends TestBase {
 	WebElement logoAmazon;
 	
 	@FindBy(xpath = "//div[@id='nav-tools']/child::a[@id='nav-link-yourAccount']")
+	static
 	WebElement signInBtn;
 	
 	@FindBy(xpath = "//input[@type='submit' and @value='Go']")
@@ -45,7 +46,7 @@ public class IntroPage extends TestBase {
 		return logoAmazon.isDisplayed();
 	}
 	
-	public SignInPage navToSignInPage() {
+	public static SignInPage navToSignInPage() {
 		
 		signInBtn.click();
 		return new SignInPage();

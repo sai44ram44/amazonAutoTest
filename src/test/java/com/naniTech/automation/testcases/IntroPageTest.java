@@ -12,6 +12,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.naniTech.automation.pages.IntroPage;
+import com.naniTech.automation.pages.SignInPage;
 import com.naniTech.automation.testbase.TestBase;
 import com.naniTech.automation.utils.CustomListner;
 
@@ -24,6 +25,7 @@ public class IntroPageTest extends TestBase{
 	}
 	
 	IntroPage intropage;
+	SignInPage signinpage = new SignInPage();
 	
 	@BeforeTest
 	public void setExtend() {
@@ -42,33 +44,41 @@ public class IntroPageTest extends TestBase{
 		intropage = new IntroPage();
 	}
 	
-	@Test(priority = 4)
+	@Test(priority = 1)
 	public void getTitleTest() {
 		TestBase.logger = TestBase.extent.startTest("getTitleTest");
 		String title = intropage.getTitle();
 		Assert.assertEquals(title, "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in");
-		Assert.assertTrue(false);
+		//Assert.assertTrue(false);
 	}
 	
 	@Test(priority = 2)
 	public void checkAmazonLogoTest() {
 		TestBase.logger = TestBase.extent.startTest("checkAmazonLogoTest");
 		Boolean logo = intropage.verifyAmazonLogo();
-		Assert.assertTrue(false);
+		Assert.assertTrue(logo);
 	}
 	
-	@Test(priority = 3)
+	@Test(priority = 4)
 	public void searchProductTest() {
 		TestBase.logger = TestBase.extent.startTest("searchProductTest");
 		intropage.searchProduct("apple iphone x");
-		Assert.assertTrue(false);
+		//Assert.assertTrue(true);
 	}
 	
-	@Test(priority = 1)
+	@Test(priority = 3)
+	public void signInPageTest() {
+		TestBase.logger = TestBase.extent.startTest("signInPageTest");
+		intropage.navToSignInPage();
+		String titleSignin = signinpage.getTitleSignIn();
+		Assert.assertEquals(titleSignin, "Amazon Sign In");
+	}
+	
+	@Test(priority = 5)
 	public void naviageToProducts() {
 		TestBase.logger = TestBase.extent.startTest("naviageToProducts");
 		intropage.navSelectedProduct("Beauty, Health, Grocery", "Make-up");
-		Assert.assertTrue(false);
+		//Assert.assertTrue(true);
 	}
 	
 	@AfterMethod

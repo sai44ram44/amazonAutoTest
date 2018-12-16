@@ -3,18 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.naniTech.automation.testcases.IntroPageTest">
+      <class name="com.naniTech.automation.testcases.ProductsPageTest">
         <methods>
-          <include name="checkAmazonLogoTest"/>
-          <include name="getTitleTest"/>
-          <include name="setExtend"/>
-          <include name="naviageToProducts"/>
-          <include name="searchProductTest"/>
-          <include name="endReport"/>
-          <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="setExtent"/>
+          <include name="setUp"/>
+          <include name="endExtent"/>
+          <include name="selectProductByFilterTest"/>
         </methods>
-      </class> <!-- com.naniTech.automation.testcases.IntroPageTest -->
+      </class> <!-- com.naniTech.automation.testcases.ProductsPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
