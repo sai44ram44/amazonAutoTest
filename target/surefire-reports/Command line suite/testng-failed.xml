@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.naniTech.automation.testcases.ProductsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setExtent"/>
+          <include name="setUp"/>
+          <include name="endExtent"/>
+          <include name="selectProductByFilterTest"/>
+        </methods>
+      </class> <!-- com.naniTech.automation.testcases.ProductsPageTest -->
+      <class name="com.naniTech.automation.testcases.SignInPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="loginLogoutAmazonTest"/>
+          <include name="setExtend"/>
+        </methods>
+      </class> <!-- com.naniTech.automation.testcases.SignInPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

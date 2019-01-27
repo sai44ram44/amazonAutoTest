@@ -1,0 +1,7 @@
+com\naniTech\automation\pages\IntroPage.class
+com\naniTech\automation\pages\SignInPage.class
+com\naniTech\automation\testbase\TestBase.class
+com\naniTech\automation\utils\TestUtils.class
+com\naniTech\automation\pages\RegistrationPage.class
+com\naniTech\automation\utils\CustomListner.class
+com\naniTech\automation\pages\ProductsPage.class
